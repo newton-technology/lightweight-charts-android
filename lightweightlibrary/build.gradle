@@ -19,7 +19,7 @@ android {
         targetSdkVersion 31
 
         versionCode 15
-        versionName "3.8.0"
+        versionName "3.8.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
@@ -80,13 +80,13 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId 'com.tradingview'
+                groupId 'io.nwtn'
                 artifactId 'lightweightcharts'
                 version android.defaultConfig.versionName
                 pom {
                     name = 'Android Lightweight Charts'
                     description = 'The Android Lightweight Charts is an Android wrapper of the TradingView Lightweight Charts library.'
-                    url = 'https://github.com/tradingview/lightweight-charts-android'
+                    url = 'https://github.com/newton-technology/lightweight-charts-android'
 
                     licenses {
                         license {
