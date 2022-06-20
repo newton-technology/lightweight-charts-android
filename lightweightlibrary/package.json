@@ -7,7 +7,7 @@
   "license": "Apache-2.0",
   "main": "src/index.js",
   "dependencies": {
-    "newton-lightweight-charts": "3.8.7"
+    "newton-lightweight-charts": "3.8.8"
   },
   "devDependencies": {
     "webpack": "^5.48.0",
