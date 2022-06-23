@@ -33,6 +33,11 @@ data class PriceScaleOptions(
     var stickLabels: Boolean? = null,
 
     /**
+     * Corner radius of price labels
+     */
+    var labelCornerRadius: Double? = null,
+
+    /**
      * Defines position of the price scale on the chart
      */
     @Deprecated("")

@@ -19,7 +19,7 @@ android {
         targetSdkVersion 31
 
         versionCode 15
-        versionName "3.8.8"
+        versionName "3.8.9"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles 'consumer-rules.pro'
