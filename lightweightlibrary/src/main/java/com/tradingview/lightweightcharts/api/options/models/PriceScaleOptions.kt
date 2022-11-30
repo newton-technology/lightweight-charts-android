@@ -28,6 +28,16 @@ data class PriceScaleOptions(
     var alignLabels: Boolean? = null,
 
     /**
+     * True value sticks labels to the price scale borders if they are off boundaries
+     */
+    var stickLabels: Boolean? = null,
+
+    /**
+     * Corner radius of price labels
+     */
+    var labelCornerRadius: Double? = null,
+
+    /**
      * Defines position of the price scale on the chart
      */
     @Deprecated("")
